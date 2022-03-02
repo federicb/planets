@@ -1,0 +1,500 @@
+  137  git merge css2
+  138  cd ..
+  139  cd ../..
+  140  git Documents/
+  141  cd Documents/
+  142  ls
+  143  history
+  144  git st
+  145  cd proyecto_EEDD/
+  146  git st
+  147  git st
+  148  git merge css2
+  149  git log --oneline --decorate --graph --all
+  150  cd css
+  151  ls
+  152  cd frontend/
+  153  cd css/
+  154  nano style.css 
+  155  nano style.css 
+  156  git add .
+  157  git st
+  158  git ci -m 'Correccion backgraund img CSS'
+  159  git st
+  160  cd ..
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd back
+  165  cd backend/
+  166  ls
+  167  nano bbdd.sql 
+  168  git branch backend2
+  169  git checkout backend2 
+  170  nano bbdd.sql 
+  171  git add .
+  172  git st
+  173  git ci -m 'primera version bbdd'
+  174  git st
+  175  git branch
+  176  git log
+  177  git checkout master
+  178  git merge backend2
+  179  git branch -d backend2 
+  180  git branch
+  181  git branch -d css2
+  182  git branch
+  183  git log -s
+  184  git log -s
+  185  cd ..
+  186  ls
+  187  cd ..
+  188  ls
+  189  cd proyecto_EEDD/
+  190  cd frontend/
+  191  nano index.html 
+  192  git add index.html
+  193  git ci -m 'ahora muchos'
+  194  cd ..
+  195  cd backend/
+  196  touch secret.txt
+  197  git add .
+  198  git st
+  199  nano secret.txt 
+  200  git st
+  201  git add .
+  202  git st
+  203  git ci -m 'se esta complicando'
+  204  nano secret.txt 
+  205  git st
+  206  git add .
+  207  git ci -m 'lloro'
+  208  git st
+  209  git -r secret.txt
+  210  rm secret.txt 
+  211  ls
+  212  git st
+  213  git add .
+  214  git st
+  215  git ci -m 'elimine el secreto'
+  216  git st
+  217  ls
+  218  cd ..
+  219  cd frontend/
+  220  ls
+  221  cd css
+  222  ls
+  223  git mv readme sigomal
+  224  ls
+  225  git add .
+  226  git st
+  227  git rm --cached sigomal
+  228  git st
+  229  git ci -m 'probando cached'
+  230  git st
+  231  git add .
+  232  git ci -m 'sigo probando'
+  233  git st
+  234  got rm --cached sigomal
+  235  git rm --cached sigomal
+  236  git st
+  237  git commit -m '?'
+  238  git st
+  239  git add .
+  240  git commit -m 'commit sigomal'
+  241  git st
+  242  git log -p -2
+  243  git log --stat
+  244  cd ..
+  245  ls
+  246  cd ..
+  247  cd
+  248  ls
+  249  cd Documents/
+  250  cd proyecto_E
+  251  cd proyecto_EEDD/
+  252  cd back
+  253  cd backend/
+  254  mkdir tablas
+  255  cd tablas
+  256  ls
+  257  echo 'tablita' > tabla_madre
+  258  ls
+  259  echo 'es la hija de' >> tabla_madre
+  260  ls
+  261  nano tabla_madre 
+  262  git add .
+  263  git ci -m 'Tablas'
+  264  git st
+  265  echo 'tabla madre' >> tabla_hija
+  266  git add .
+  267  git ci -m 'hija'
+  268  echo 'es la jefa' >> tabla_hija
+  269  nano tabla_hija 
+  270  git add .
+  271  git ci -m 'definicion'
+  272  git st
+  273  git log -s
+  274  git branch error_megaimportante
+  275  git branch
+  276  git checkout error_megaimportante 
+  277  touch script23.js
+  278  git add .
+  279  git ci -m 'el script esta preparandose'
+  280  git st
+  281  nano script23.js 
+  282  git add .
+  283  git ci .m 'primeras correcciones'
+  284  git st
+  285  git ci -m 'primeras correcciones'
+  286  git st
+  287  echo 'ya 'ta' >> script23.js
+  288  q
+  289  nano script23.js 
+  290  git add .
+  291  git ci -m 'terminado'
+  292  git checkout master 
+  293  git merge error_megaimportante 
+  294  ls
+  295  git branch -d error_megaimportante 
+  296  git branch
+  297  git log --oneline --decorate --graph --all
+  298  ls
+  299  cd Documents/
+  300  ls
+  301  cd proyecto_EEDD/
+  302  ls
+  303  git shortlog
+  304  git log
+  305  cd Documents/
+  306  cd proyecto_E
+  307  cd proyecto_EEDD/
+  308  git log
+  309  git branch
+  310  git log --pretty=oneline
+  311  gitk
+  312  ls
+  313  cd Documents/
+  314  ls
+  315  echo "# proyecto-web" >> README.md
+  316  git init
+  317  git add README.md
+  318  git commit -m "first commit"
+  319  git branch -M main
+  320  git remote add origin https://github.com/federicb/proyecto-web.git
+  321  git push -u origin main
+  322  git push -u origin main
+  323  git push -u origin main
+  324  cd ~
+  325  ls -la
+  326  ssh-keygen
+  327  cd .ssh/
+  328  ls
+  329  cat id_rsa.pub
+  330  ssh -T git@github.com
+  331  git checkout master
+  332  ssh -T git@github.com
+  333  ssh -T git@github.com
+  334  git remote rm origin
+  335  git checkout master
+  336  cd ..
+  337  cd ~
+  338  ls
+  339   cd Documents/
+  340  ls
+  341  git remote rm origin
+  342  git remote -v
+  343  git remote add origin git@github.com:federicb/proyecto-web.git
+  344  git remote -v
+  345  git push -u origin
+  346  ls
+  347  cd 
+  348  cd ~
+  349  ls
+  350  ls -l
+  351  lks .ssh/
+  352  ls .ssh/
+  353  cat .ssh/id_rsa.pub
+  354  ssh -T git@github.com
+  355  ls
+  356  cd Documents/
+  357  ls
+  358  git remote -v
+  359  git push -u origin main
+  360  cd
+  361  cd Documents/
+  362  cd ..
+  363  mkdir fork_project
+  364  cd fork_project/
+  365  got clone git@github.com:federicb/Prueba_repositorio.git
+  366  git clone git@github.com:federicb/Prueba_repositorio.git
+  367  ls -l
+  368  git log
+  369  git checkout -b cambios
+  370  git checkout -b cambios
+  371  ls
+  372  cd Prueba_repositorio/
+  373  git checkout -b cambios
+  374  git branch
+  375  ls
+  376  nano README.md 
+  377  cat README.md 
+  378  git diff --word-diff
+  379  git diff --diff
+  380  git diff
+  381  git commit -a -m 'cambio que hice'
+  382  git remote -v
+  383  git status
+  384  git push origin cambios
+  385  cd
+  386  ls
+  387  cd Docu
+  388  cd Documents/
+  389  mkdir repaso
+  390  cd repaso/
+  391  git init
+  392  git config -- local user.name "federico ismael"
+  393  git config -- local user.mail isma-fb@hotmail.com
+  394  git config -- local user.email isma-fb@hotmail.com
+  395  git config --local user.name "federico ismael"
+  396  git config --local user.email isma-fb@hotmail.com
+  397  git config --local --list
+  398  echo "Hoy es miercoles"> readme.txt
+  399  git status
+  400  git add .
+  401  git status
+  402  git commint -m 'Primer commit'
+  403  git status
+  404  git commit -m 'primer commit'
+  405  git status
+  406  git log
+  407  ls -la
+  408  nano readme.txt 
+  409  git status
+  410  git diff
+  411  history
+  412  git add .
+  413  git status
+  414  git commit -m "primera modificacion"
+  415  git status
+  416  touch arch1 arch2 arch3
+  417  git status
+  418  git add .
+  419  git status
+  420  git status
+  421  rm arch1 
+  422  git status
+  423  git add .
+  424  git status
+  425  git restore --cached <arch3>
+  426  git status
+  427  git commit -m 'prueba de borrados desde commit'
+  428  git status
+  429  rm arch2
+  430  git status
+  431  git add .
+  432  git statusç
+  433  git status
+  434  git commit -m 'borrado desde el commit'
+  435  git status
+  436  history
+  437  ls
+  438  cd Documents/
+  439  ls
+  440  cd proyecto_EEDD/
+  441  ls
+  442  git status
+  443  git log
+  444  ls
+  445  cd backend/
+  446  ls
+  447  cat bbdd.sql 
+  448  ls
+  449  cd tablas/
+  450  ls
+  451  cat tabla_hija 
+  452  cd ..
+  453  cd ..
+  454  cd --
+  455  cd ..
+  456  ls
+  457  cd isma-/
+  458  ls
+  459  cd Documents/
+  460  ls
+  461  history > comandos_history.txt
+  462  ls
+  463  history 
+  464  ls
+  465  cd proyecto_E
+  466  cd proyecto_EEDD/
+  467  ls
+  468  git log
+  469  git log -p -2
+  470  git log --oneline --decorate
+  471  git branch
+  472  git lod --oneline --decorate --graph --all
+  473  git log --oneline --decorate --graph --all
+  474  git log -s
+  475  ls
+  476  touch jaja.txt
+  477  ls
+  478  git -r jaja.txt
+  479  ls
+  480  rm jaja.txt 
+  481  ls
+  482  cd .
+  483  ls
+  484  cd ..
+  485  ls
+  486  git log
+  487  git status
+  488  ls -la
+  489  history
+  490  ls
+  491  cd Documents/
+  492  ls
+  493  mkdir planets
+  494  ls
+  495  cd planets/
+  496  git init
+  497  ls
+  498  ls -a
+  499  git status
+  500  mkdir moons
+  501  pwd
+  502  nano mars.txt
+  503  ls
+  504  mars.txt
+  505  cat mars.txt
+  506  git status
+  507  git add mars.txt
+  508  git status
+  509  git commit -m 'Start notes on Mars as a base'
+  510  git status
+  511  git log
+  512  ls
+  513  nano mars.txt 
+  514  cat mars.txt 
+  515  git status
+  516  git diff
+  517  git add .
+  518  git commit -m 'modifico--> two moons'
+  519  git diff
+  520  git diff *
+  521  git diff*
+  522  git diff *
+  523  git diff --staged
+  524  git diff --staged
+  525  nano mars.txt 
+  526  git diff
+  527  git diff --staged
+  528  git add .
+  529  git commit -m 'que paso?'
+  530  git diff --staged
+  531  nano mars.txt 
+  532  git diff --staged
+  533  git add .
+  534  git diff --staged
+  535  git commit -m 'confirmo modif'
+  536  git status
+  537  nano mars.txt 
+  538  cat mars.txt 
+  539  git diff
+  540  git diff --staged
+  541  git add .
+  542  git diff --staged
+  543  git commit -m "Discuss concerns about Mars' climate for Mummy"
+  544  git status
+  545  git log
+  546  git log -1
+  547  git log --oneline
+  548  got log --oneline --graph --all --decorate
+  549  git log --oneline --graph --all --decorate
+  550  mkdir directory
+  551  git status
+  552  git add directory
+  553  git status
+  554  git add 1
+  555  nano mars.txt 
+  556  cat mars.txt 
+  557  nano venus.txt
+  558  cat venus.txt 
+  559  git add mars.txt venus.txt 
+  560  git status
+  561  git commit -m "Write plans to start a base on Venus"
+  562  got log --format=full
+  563  git log --format=full
+  564  nano me.txt
+  565  git add me.txt 
+  566  git commit -m "Update Vlad's bio." --author="Frank N. Stein <franky@monster.com>"
+  567  git log --format=full
+  568  nano mars.txt 
+  569  git diff HEAD mars.txt
+  570  git diff HEAD~1 mars.txt
+  571  git diff HEAD~2 mars.txt
+  572  git show HEAD~2 mars.txt
+  573  git diff f22b25e mars.txt
+  574  git log
+  575  git log --oneline
+  576  git diff 96cdef9 mars.txt
+  577  git diff HEAD~1 mars.txt
+  578  git diff HEAD~2 mars.txt
+  579  git show HEAD~2 mars.txt
+  580  git diff 96cdef9 mars.txt
+  581  nano mars.txt 
+  582  cat mars.txt 
+  583  git status
+  584  git checkout HEAD mars.txt
+  585  cat mars.txt 
+  586  git diff 96cdef9 mars.txt
+  587  cat mars.txt 
+  588  git checkout -f master mars.txt
+  589  git checkout 96cdef9 mars.txt
+  590  git status
+  591  git log --oneline
+  592  nano venus.txt 
+  593  git add venus.txt 
+  594  nano venus.txt 
+  595  git commit -m"Comment of Venus as an unsuitable base"
+  596  git checkout HEAD venus.txt
+  597  cat venus.txt 
+  598  git log --oneline
+  599  nano mars.txt 
+  600  git checkout
+  601  cat mars.txt 
+  602  git add mars.txt 
+  603  git checkout
+  604  cat mars.txt 
+  605  git checkout mars.txt
+  606  cat checkout
+  607  cat mars.txt 
+  608  git diff mars.txt
+  609  git log mars.txt
+  610  git log --patch mars.txt
+  611  git log --patch HEAD~3 *.txt
+  612  ls
+  613  mkdir results
+  614  touch a.dat b.dat c.dat results/a.out results/b.out
+  615  git status
+  616  nano .gitignore
+  617  cat .gitignore
+  618  nano .gitignore
+  619  cat .gitignore
+  620  git status
+  621  git add .
+  622  git commit -m "commit gitignore"
+  623  git status
+  624  git add a.dat
+  625  git status --ignored
+  626  git status
+  627  git remote add git@github.com:federicb/planets.git
+  628  git remote -v
+  629  git remote add origin git@github.com:federicb/planets.git
+  630  git branch -M main
+  631  git remote -v
+  632  git push -u origin
+  633  git push -u origin main
+  634  git remote add broken http://github.com/this/url/is/invalid
+  635  git remote -h
+  636  history > history.txt
